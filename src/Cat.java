@@ -1,9 +1,10 @@
 import java.io.Serializable;
 
-public class Cat implements Serializable {
+public class Cat {
     @Save
+
     private String name;
-    @Save
+
     private int age;
     @Save
     private String meal;
